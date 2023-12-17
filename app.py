@@ -222,6 +222,7 @@ def get_schedule(*A): # работа над заполнением рабочи�
              with open('settings') as f:
                  settings_list = eval(f.readlines()[0])
                  print('settings_list',settings_list)
+
              
              date = datetime(*map(int, settings_list[3].split('-')))
              selected = settings_list[2]
