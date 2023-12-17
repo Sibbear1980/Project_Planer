@@ -1,14 +1,12 @@
 from tkinter import *
 import geocoder
 from tkcalendar import Calendar, DateEntry
-from tkinter import Label, Tk, ttk
+from tkinter import Label, Tk, ttk, font
 from PIL import Image, ImageTk
 import requests
-from tkinter import font
 import smtplib
 from datetime import timedelta
 from datetime import datetime, date
-#from datetime import *
 import os
 sring_my = '''\n\n\n\nHello!\n\nI am called to rescue you from the hellish chaos of life. Where you can define your path, divide it into stages, understand the possibilities of time and your pace. And what is very important, you can see all the work done and admire yourself.\n\nI'll always keep you posted.'''
 type_to_image = {'programming': Image.open("pc.png"), 'health': Image.open("m.png"), 'erudition': Image.open("cr.png"), 'work':Image.open("money.png"), 'cleanliness': Image.open("c.png")}
