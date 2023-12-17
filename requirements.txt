@@ -3,6 +3,4 @@ geocoder
 tkcalendar
 requests
 datetime
-os
-font
 
