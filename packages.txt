@@ -1,7 +1,6 @@
+libtk8.6
 streamlit
 geocoder
 tkcalendar
 requests
 datetime
-libtk8.6
-
