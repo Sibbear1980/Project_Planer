@@ -1,0 +1,5 @@
+streamlit
+geocoder
+tkcalendar
+requests
+datetime

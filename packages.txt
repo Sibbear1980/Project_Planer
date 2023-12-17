@@ -1,6 +1,1 @@
 libtk8.6
-streamlit
-geocoder
-tkcalendar
-requests
-datetime
